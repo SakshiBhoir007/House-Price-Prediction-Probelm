@@ -11,6 +11,6 @@ Steps-
 6.Then we tried Feauture generation on the predictors (dummy variables, create a variable age using other set of predictors such as date & yr_built).
 7.Feature transformation:log and square root transformation because its a skewed data for predictors.
 8.Forward selection through Regression : using mlxtend library [scoring='r^2]. For every step doing a 10-fold cv split and recording RMSE and r^2.
-9. DECISION TREE- We tried the same set of predictors and do Decision treee analysis using the best hyperparametres.
+9. DECISION TREE- We tried the same set of predictors on Decision tree model using the best hyperparameters.
 10.From all the models we fit our data through , we select the best model based on the performance metrics we took and use them to predict the prices of the test_data.
 11 .We report our prices.
