@@ -8,7 +8,7 @@ Steps-
 3. Then we did Exploratory Data Analysis on data and found some suprising results.
 4. We took some set of predictors for Multiple linear Regression.
 5. After doing 10-fold split cross validation on it we report Rmse and r^2 values.
-6. Then we tried Feauture generation on the predictors (dummy variables, create a variable age using other set of predictors such as date & yr_built).
+6. Then we did Feature generation on the predictors (dummy variables, create a variable age using other set of predictors such as date & yr_built).
 7. Feature transformation:log and square root transformation because its a skewed data for predictors.
 8. Forward selection through Regression : using mlxtend library [scoring='r^2]. For every step doing a 10-fold cv split and recording RMSE and r^2.
 9. DECISION TREE- We tried the same set of predictors on Decision tree model using the best hyperparameters.
